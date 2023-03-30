@@ -1,0 +1,35 @@
+
+ <div class="cards dark-cards">
+ <div class="titles-row">
+     <h2>How To Use Axios with React?</h2>
+ </div>
+ <div class="conduct-caption">
+     <p>While dealing with web applications in React, the most common task is to communicate with backend servers. This is usually done via HTTP protocol. We are all quite familiar with the very common XML Http Request interface and Fetch API, which allows us to fetch data and make HTTP requests. There is another way to communicate with the backend in React. In this article, we will learn about the awesome library known as Axios, some of the key features of Axios that have contributed to its popularity among frontend developers and how to use Axios in React. For more information, check out Full Stack course.</p>
+     <h6>
+        So let’s get started.
+     </h6>
+     <h4>
+         What is Axios? (A little bit of history) 
+     </h4>
+     
+     <ol>
+         <li>Axios is used to communicate with the backend and it also supports the Promise API that is native to JS ES6.  
+         </li>
+         <li>It is a library which is used to make requests to an API, return data from the API, and then do things with that data in our React application. 
+         </li>
+         <li>Axios is a very popular (over 78k stars on Github) HTTP client, which allows us to make HTTP  requests from the browser.</li>
+     </ol>
+     <h5>Why Do We Need Axios in React? </h5>
+     <p>Axios allows us to communicate with APIs easily in our React apps. Though this can also be achieved by other methods like fetch or AJAX, Axios can provide a little more functionality that goes a long way with applications that use React.  </p>
+    <p>Axios is a promise-based library used with Node.js and your browser to make asynchronous JavaScript HTTP requests. </p>
+    <p>When we know we need to implement some promise-based asynchronous HTTP requests in our application, with JavaScript, we usually think of only jQuery’s AJAX or fetch method to get the job done. And while doing so, we are actually going against React!! Did you notice that? </p>
+    <ol>
+        <li>So, while React doesn’t care about DOM manipulation at all, why do we need jQuery for our React app? </li>
+        <li>Since React is handling each and everything within its own virtual DOM, perhaps we don’t need jQuery at all. </li>
+        <li>And hence, Axios becomes a lighter-weight/optimized solution to play around with our HTTP requests. </li>
+        <li>Apart from the above mentioned points, why I personally like AXIOS is because it has a very clean and precise syntax. See  the example code below: </li>
+        <li>Don't worry if you are not familiar with the code, we will learn that later. </li>
+        <li>Click here to learn more about the usereducer used in React.</li>
+    </ol>
+  </div>
+</div>

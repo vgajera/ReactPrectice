@@ -1,0 +1,149 @@
+// Variables
+//
+// Variables should follow the `$component-state-property-size` formula for
+// consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
+
+// Color system
+$color-base: #062640;
+
+$white: #fff;
+$gray: #f8f9fa;
+$black: #000;
+$black-gray-bg: #062640;
+$black-gray-color: #062640;
+
+$yellow: #9b7400;
+$green: #28a745;
+$primary: #062640;
+$primary-dark: #062640;
+$secondary: $green;
+$secondaryone: #f36d35;
+$success: $green;
+$warning: $yellow;
+$danger: #f36d35;
+$brand-lightbg: #fce7b3;
+
+// Body
+//
+// Settings for the `<body>` element.
+$font-size-base: 16px;
+$font-size-base-sm: 12px;
+$font-family-base: 'IBM Plex Sans', sans-serif;
+$font-family-sans: 'IBM Plex Sans', sans-serif;
+$font-family-serif: 'IBM Plex Serif', serif;
+$brand-icon: 'tara';
+$font-weight-normal: 400;
+
+$body-bg: #f8fafc;
+$white-bg: #fff;
+
+// Paragraphs
+//
+// Style p element.
+$paragraph-margin-bottom: 20px;
+$brand-color: #1f58db;
+$brand-color-bg: #1f58db;
+$btn-brand-bg-dark: #1f58db;
+$brand-light-color: #afc5e0;
+
+// Typography
+//
+// Font, line-height, and color for body text, headings, and more.
+$font-family-base: 'IBM Plex Serif', serif;
+$heading-margin-bottom: 20px;
+$h1-font-size: 36px;
+$h2-font-size: 28px;
+$h3-font-size: 24px;
+$h4-font-size: 22px;
+$h5-font-size: 20px;
+$h6-font-size: 18px;
+
+// Forms
+$btn-font-size: 18px;
+$btn-padding: 11px 16px;
+$btn-color: #062640;
+$btn-color-bg: #d9ecec;
+$btn-border-color: #062640;
+$btn-focus-border: $secondary;
+$btn-focus-color: #ffffff;
+$btn-focus-color-bg: $secondary;
+
+$btn-brand-bg: #1f58db;
+$btn-brand-bdr: #1f58db;
+$btn-brand-color: #fff;
+$btn-focus-brand-bg: #062640;
+$btn-focus-brand-bdr: #040404;
+$btn-focus-brand-color: #fff;
+
+$btn-success-bg: $green;
+$btn-success-bdr: $green;
+$btn-success-color: #fff;
+$btn-focus-success-bg: #fff;
+$btn-focus-success-bdr: $green;
+$btn-focus-success-color: $green;
+
+$btn-danger-bg: $danger;
+$btn-danger-bdr: $danger;
+$btn-danger-color: #fff;
+$btn-focus-danger-bg: #fff;
+$btn-focus-danger-bdr: $danger;
+$btn-focus-danger-color: $danger;
+
+$btn-warning-bg: $warning;
+$btn-warning-bdr: $warning;
+$btn-warning-color: #fff;
+$btn-focus-warning-bg: #fff;
+$btn-focus-warning-bdr: $warning;
+$btn-focus-warning-color: $warning;
+
+$btn-gray-bg: #dddedd;
+$btn-gray-bdr: #dddedd;
+$btn-gray-color: #767979;
+$btn-focus-gray-bg: $btn-gray-bg;
+$btn-focus-gray-bdr: $btn-gray-bg;
+$btn-focus-gray-color: #545857;
+
+$btn-white-bg: #fff;
+$btn-white-bdr: #fff;
+$btn-white-color: #fff;
+$btn-focus-white-bg: #fff;
+$btn-focus-white-bdr: $primary;
+$btn-focus-white-color: $primary;
+
+$btn-bdr-bg: rgba(0, 0, 0, 0);
+$btn-bdr-color: #fff;
+$btn-bdrcolor: #fff;
+
+$btn-bdr-black-bg: rgba(0, 0, 0, 0);
+$btn-bdr-black-color: #172b54;
+$btn-bdr-black-color: #172b54;
+$btn-focus-bdr-black-bg: rgb(243, 243, 243);
+$btn-focus-bdr-black-color: #172b54;
+$btn-focus-bdr-black-color: #172b54;
+
+$label-color: #062640;
+$label-font-size: 16px;
+$label-margin-bottom: 5px;
+
+$input-placeholder-color: #767979;
+$input-padding: 12px 16px;
+$input-color: #062640;
+$input-bg: #ffffff;
+$input-font-size: 16px;
+$input-border-color: #dddedd;
+$input-border-color-focus: $brand-color;
+
+$input-errorbg: #fef2f2;
+$input-error-bdr: #b91c1c;
+$input-error-clr: #b91c1c;
+$input-placeholder-errorcolor: #b91c1c;
+
+$lblrequired: #b91c1c;
+$error-color: #b91c1c;
+
+$color-link: #1f58db;
+$color-link-hover: #1f58db;
+
+$white-bdr: #fff;
+$border-base: #dddedd;
+$fa-font-path: '../../fontawesome-pro-6.1.2-web/webfonts' !default;
