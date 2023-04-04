@@ -606,6 +606,7 @@ input[type='reset'] {
         box-shadow: 0 0 0 1px $btn-white-bdr;
       }
     }
+    
   }
 
   &.btn-full {
@@ -852,6 +853,7 @@ input[type='reset'] {
       color: $brand-color;
     }
   }
+  &.btn-sm{padding:4px 10px;font-size: 13px;}
 }
 
 .btn-txt {
@@ -2461,4 +2463,20 @@ footer {
 
 .alert-dark .alert-link {
   color: #101214
+}
+
+.card-row{display: flex;margin:0 -5px;margin-bottom: 20px;
+  .card{flex: 1;max-width: 50%;margin: 0 5px;}
+}
+.card{background: #fff;padding: 15px 0;border-radius: 10px; border:1px solid #dddedd;
+  .card-title{padding:0 15px 5px; border-bottom: 1px solid #dddedd;
+    h3{font-size: 18px;margin: 0 auto;}
+  }
+  .card-caption{padding:15px 15px 0;}
+}
+
+.title-row{
+  h1{
+    span{display: block;font-size: 15px;font-weight:300;letter-spacing: .08em;padding-top: 5px;}
+  }
 }
