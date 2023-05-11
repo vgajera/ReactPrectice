@@ -2469,6 +2469,14 @@ footer {
   .card{flex: 1;max-width: 50%;margin: 0 5px;}
 }
 .card{background: #fff;padding: 15px 0;border-radius: 10px; border:1px solid #dddedd;
+  &.dark-card{background: #141619;color: #fff;
+    .card-title{
+      h3{color: #fff;}
+    }
+    .card-caption{
+      h1{color: #fff;}
+    }
+  }
   .card-title{padding:0 15px 5px; border-bottom: 1px solid #dddedd;
     h3{font-size: 18px;margin: 0 auto;}
   }

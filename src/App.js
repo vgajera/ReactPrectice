@@ -9,6 +9,9 @@ import Product from './Pages/Product/Container';
 import Login from './Pages/Auth/Login/Container';
 import Register from './Pages/Auth/Register/Container'; 
 import UsersRoute from './UsersRoute.js'; 
+import { ThemeProvider } from './common/ThemeContext';
+import Context from './Pages/Component/Context';
+
 
 export { App };
 
@@ -28,7 +31,6 @@ function App() {
                     <Route path="/product" element={ <Product />} />
                     <Route path="users/*" element={<UsersRoute />} />
                 </Route>
-                
                 <Route path="login" element={<Login />} />
                 <Route path="register" element={<Register />} />
                 <Route path="*" element={<Navigate to="/" />} />
