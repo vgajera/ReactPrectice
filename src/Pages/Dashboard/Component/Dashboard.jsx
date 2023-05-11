@@ -1,17 +1,21 @@
-import React, { useEffect } from "react";
+import React, { useContext } from "react";
 import { useSelector} from "react-redux";
 import Counter from "../../Component/Counter";
 import ClassClick from "../../Component/ClassClick";
-import ChildComponent from "../../Component/ChildComponent";
+import DarkCard from "../../Component/DarkCard";
 import StyleSheet from "../../Component/StyleSheet";
+import Context from "../../Component/Context";
 import Greet from "../../Component/Greet";
+import { ThemeProvider } from "../../../common/ThemeContext";
 //import { userActions } from "../../../_store";
+
 
 function Dashbaord(props) {
   const auth = useSelector(x => x.auth.value);
-
+  
   return (
     <div className="right-contentarea">
+      <ThemeProvider >                    
       <div className="main-head">
         <div className="container">
           <div className="header-top">
@@ -34,45 +38,35 @@ function Dashbaord(props) {
               </h1>
             </div>
             <div className="card-row">
-            <div className="card">
-                <div className="card-title">
-                    <h3>click event </h3>
-                </div>
-                <div className="card-caption">
-                  <ClassClick />
-                </div>
-              </div>
-              <div className="card">
-                <div className="card-title">
-                    <h3>Increment value on click</h3>
-                </div>
-                <div className="card-caption">
+                <ClassClick />
                 <Counter />
-                </div>
-              </div>              
-              <div className="card">
-                <div className="card-title">
-                    <h3>Props example</h3>
-                </div>
-                <div className="card-caption">
-                {/* <ChildComponent greetHendler={true} /> */}
-                  <Greet name={'world'} />
-                </div>
-              </div>
+                <Greet name={'world'} />
             </div> 
             <div className="card-row">  
               <div className="card">
                 <div className="card-title">
                     <h3>Stylesheet demo</h3>
-                </div>
+                </div>                
                 <div className="card-caption">
                   <StyleSheet primary={true} />                
                 </div>
               </div>
             </div> 
+              <div className="card-row">  
+                <div className="card">
+                  <div className="card-title">
+                      <h3>context api demo</h3>
+                  </div>                
+                  <div className="card-caption">
+                      <Context /> 
+                  </div>
+                </div>
+              </div> 
+              <DarkCard />
           </div> 
         </div>
       </div> 
+    </ThemeProvider>
     </div>
   );
 }

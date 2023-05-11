@@ -27,9 +27,14 @@ class Counter extends Component {
 
   render() {
     return (
-      <div>
+      <div className="card">
+                <div className="card-title">
+                    <h3>Props example</h3>
+                </div>
+                <div className="card-caption">
         <p>Count - {this.state.count}</p>
         <button className='btn btn-brand btn-sm' onClick={ () => this.incrementFive()}>increment</button>
+       </div>
      </div>
     )
   }
